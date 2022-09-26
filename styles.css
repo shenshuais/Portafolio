@@ -264,7 +264,7 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 96%;
+    min-width: fit-content;
     height: 80vh;
     padding: 0 2rem;
     background: var(--main-gray);
