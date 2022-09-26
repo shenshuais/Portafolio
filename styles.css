@@ -136,6 +136,7 @@ h2 {
     letter-spacing: .15em;
     animation: typingp 5s steps(40, end);
     animation-delay: 2s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes typing {
