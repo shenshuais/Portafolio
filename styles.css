@@ -124,12 +124,13 @@ h2 {
 }
 
 .welcome-section>p {
+    opacity: 0;
+    overflow: hidden;
     text-align: center;
     font-size: 3rem;
     font-weight: 200;
     font-style: italic;
     color: var(--main-red);
-    overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .15em;
@@ -138,6 +139,7 @@ h2 {
 }
 
 @keyframes typing {
+    
     from {
         width: 0
     }
@@ -149,10 +151,12 @@ h2 {
 
 @keyframes typingp {
     from {
+        opacity: 1;
         width: 0
     }
 
     to {
+        opacity: 1;
         width: 100%
     }
 }
