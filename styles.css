@@ -135,7 +135,7 @@ h2 {
     margin: 0 auto;
     letter-spacing: .15em;
     animation: typingp 5s steps(40, end);
-    animation-delay: 2s;
+    animation-delay: 2.5s;
     animation-fill-mode: forwards;
 }
 
